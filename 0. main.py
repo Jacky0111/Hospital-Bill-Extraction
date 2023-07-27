@@ -34,8 +34,8 @@ def main():
     # Find the username and password input fields and enter your credentials
     username = driver.find_element(By.NAME, 'txtUserID')
     password = driver.find_element(By.NAME, 'txtPassword')
-    username.send_keys('ALM000156')
-    password.send_keys('newpassword')
+    username.send_keys('ALMxxxxxx') # You have to retrieve the ID and password yourself
+    password.send_keys('pxsswxrd')
     sleep(3)
 
     # Submit the login form
